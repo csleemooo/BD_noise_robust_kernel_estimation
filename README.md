@@ -22,4 +22,4 @@ To run motion deblur on AFHQ-dog datasets,
 python main_afhq_motion_blur.py --data_name afhq_dog
 ```
 
-Code and datasets for further experiemetns will be uploaded soon.
+Code and datasets for further experiements will be uploaded soon.
