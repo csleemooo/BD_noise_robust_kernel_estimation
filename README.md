@@ -13,7 +13,12 @@ The following libraries are necessary for running the codes.
 
 Please install requirements using below command.
 ```
+conda create -n bd_noise python=3.11
+
+conda activate bd_noise
+
 pip install -r requirements.txt
+
 pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
 ```
 which should install in about few minutes.
