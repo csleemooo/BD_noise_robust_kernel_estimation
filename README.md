@@ -24,9 +24,11 @@ The code is tested on the following system and drivers.
 Windows 11 / CUDA 11.8 / RTX3080
 
 ## Motion deblur
-To run motion deblur on AFHQ-dog datasets,
+To run motion deblur on AFHQ-dog or AFHQ-cat datasets
 ```
 python main_afhq_motion_blur.py --data_name afhq_dog
+python main_afhq_motion_blur.py --data_name afhq_cat
 ```
+The deblurring results on each dataset are uploded in ./results folder
 
 Code and datasets for further experiements will be uploaded soon.
